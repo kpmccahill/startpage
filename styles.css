@@ -1,0 +1,91 @@
+
+body {
+    background-color: #2F3C50;
+    margin: 0px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#date {
+    text-align: center;
+    font-family: Consolas;
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: white;
+    text-shadow: 4px 4px #192536;
+}
+
+#clock {
+    text-align: center;
+    font-family: Consolas;
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 4px 4px #192536;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+    margin: 1em 0em;
+}
+
+.link-set {
+    margin: 3px;
+    padding: 1em;
+    width: 25%;
+    height: 10em;
+    margin: 0em .5em;
+}
+
+.set-title {
+    font-family: Consolas;
+    font-size: 1.50rem;
+    color: white;
+    margin: 0em 0em .25em 0em;
+    text-shadow: 3px 3px #192536;
+}
+
+.inner-set-container {
+
+    height: 80%;
+    vertical-align: top;
+}
+
+.link {
+    display: block;
+    text-decoration: none;
+    color: #a6a6a6;
+    font-size: 1.25rem;
+    font-family: Consolas;
+    text-shadow: 2px 2px #192536;
+}
+
+.link:hover {
+    color: #fff;
+    text-shadow: 2px 2px gray;
+}
+
+.weather-container {
+    text-align: center;
+    width: 25%;
+    padding: .5em;
+    border-radius: 10px;
+    font-family: Consolas;
+    font-size: 1.75rem;
+    color: white;
+    text-shadow: 2px 2px #192536;
+}
+
+.inline {
+    display: inline-block;
+}
