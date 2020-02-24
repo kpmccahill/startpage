@@ -36,14 +36,28 @@ body {
     flex-direction: row;
     justify-content: center;
     width: 50%;
-    margin: 1em 0em;
+    margin: 1em 0em 0em;
+}
+
+.s-link-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+    margin: 0em 0em 1em;
 }
 
 .link-set {
-    margin: 3px;
-    padding: 1em;
+    padding: 1em 1em 0em;
     width: 25%;
-    height: 10em;
+    height: 8.5em;
+    margin: 0em .5em;
+}
+
+.s-link-set {
+    padding: 0em .5em .5em;
+    width: 25%;
+    height: 5em;
     margin: 0em .5em;
 }
 
@@ -55,8 +69,15 @@ body {
     text-shadow: 3px 3px #192536;
 }
 
-.inner-set-container {
+.s-set-title {
+    font-family: Consolas;
+    font-size: 1.15rem;
+    color: white;
+    margin: 0em 0em .25em 0em;
+    text-shadow: 2px 2px #192536;
+}
 
+.inner-set-container {
     height: 80%;
     vertical-align: top;
 }
@@ -64,6 +85,7 @@ body {
 .link {
     display: block;
     text-decoration: none;
+    padding: .12em;
     color: #a6a6a6;
     font-size: 1.25rem;
     font-family: Consolas;
@@ -75,10 +97,25 @@ body {
     text-shadow: 2px 2px gray;
 }
 
+.s-link {
+    display: block;
+    text-decoration: none;
+    padding: .12em;
+    color: #a6a6a6;
+    font-size: .95rem;
+    font-family: Consolas;
+    text-shadow: 1.5px 1.5px #192536;
+}
+
+.s-link:hover {
+    color: #fff;
+    text-shadow: 1.5px 1.5px gray;
+}
+
 .weather-container {
     text-align: center;
     width: 25%;
-    padding: .5em;
+    padding: .1em;
     border-radius: 10px;
     font-family: Consolas;
     font-size: 1.75rem;
