@@ -39,7 +39,7 @@ window.onload = () => {
         if (xhr.readyState === 4) {
             if (xhr.status === 200) {
                 let json = JSON.parse(xhr.responseText);
-                console.log(json);
+                // console.log(json);
                 document.getElementById("temp").innerHTML = json.main.temp.toFixed(0) + " F";
                 document.getElementById("weather-info").innerHTML = json.weather[0].description;
             } else {

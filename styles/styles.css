@@ -1,4 +1,3 @@
-
 body {
     background-color: #2F3C50;
     margin: 0px;
@@ -125,4 +124,8 @@ body {
 
 .inline {
     display: inline-block;
+}
+
+.todo-container {
+
 }
